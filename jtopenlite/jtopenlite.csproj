@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{9CE50832-5629-487E-B0EE-4CE4D4900F56}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>jtopenlite</RootNamespace>
+    <AssemblyName>jtopenlite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs" />
+    <Compile Include="ByteArrayKey.cs" />
+    <Compile Include="ccsidConversion\CCSID1025.cs" />
+    <Compile Include="ccsidConversion\CCSID1026.cs" />
+    <Compile Include="ccsidConversion\CCSID1027.cs" />
+    <Compile Include="ccsidConversion\CCSID1097.cs" />
+    <Compile Include="ccsidConversion\CCSID1112.cs" />
+    <Compile Include="ccsidConversion\CCSID1122.cs" />
+    <Compile Include="ccsidConversion\CCSID1123.cs" />
+    <Compile Include="ccsidConversion\CCSID1130.cs" />
+    <Compile Include="ccsidConversion\CCSID1132.cs" />
+    <Compile Include="ccsidConversion\CCSID1137.cs" />
+    <Compile Include="ccsidConversion\CCSID1140.cs" />
+    <Compile Include="ccsidConversion\CCSID1141.cs" />
+    <Compile Include="ccsidConversion\CCSID1142.cs" />
+    <Compile Include="ccsidConversion\CCSID1143.cs" />
+    <Compile Include="ccsidConversion\CCSID1144.cs" />
+    <Compile Include="ccsidConversion\CCSID1145.cs" />
+    <Compile Include="ccsidConversion\CCSID1146.cs" />
+    <Compile Include="ccsidConversion\CCSID1147.cs" />
+    <Compile Include="ccsidConversion\CCSID1148.cs" />
+    <Compile Include="ccsidConversion\CCSID1149.cs" />
+    <Compile Include="ccsidConversion\CCSID1153.cs" />
+    <Compile Include="ccsidConversion\CCSID1154.cs" />
+    <Compile Include="ccsidConversion\CCSID1155.cs" />
+    <Compile Include="ccsidConversion\CCSID1156.cs" />
+    <Compile Include="ccsidConversion\CCSID1157.cs" />
+    <Compile Include="ccsidConversion\CCSID1158.cs" />
+    <Compile Include="ccsidConversion\CCSID1160.cs" />
+    <Compile Include="ccsidConversion\CCSID1164.cs" />
+    <Compile Include="ccsidConversion\CCSID13121.cs" />
+    <Compile Include="ccsidConversion\CCSID13124.cs" />
+    <Compile Include="ccsidConversion\CCSID256.cs" />
+    <Compile Include="ccsidConversion\CCSID273.cs" />
+    <Compile Include="ccsidConversion\CCSID277.cs" />
+    <Compile Include="ccsidConversion\CCSID278.cs" />
+    <Compile Include="ccsidConversion\CCSID280.cs" />
+    <Compile Include="ccsidConversion\CCSID284.cs" />
+    <Compile Include="ccsidConversion\CCSID285.cs" />
+    <Compile Include="ccsidConversion\CCSID28709.cs" />
+    <Compile Include="ccsidConversion\CCSID290.cs" />
+    <Compile Include="ccsidConversion\CCSID297.cs" />
+    <Compile Include="ccsidConversion\CCSID37.cs" />
+    <Compile Include="ccsidConversion\CCSID420.cs" />
+    <Compile Include="ccsidConversion\CCSID423.cs" />
+    <Compile Include="ccsidConversion\CCSID4971.cs" />
+    <Compile Include="ccsidConversion\CCSID500.cs" />
+    <Compile Include="ccsidConversion\CCSID5123.cs" />
+    <Compile Include="ccsidConversion\CCSID62211.cs" />
+    <Compile Include="ccsidConversion\CCSID62224.cs" />
+    <Compile Include="ccsidConversion\CCSID62235.cs" />
+    <Compile Include="ccsidConversion\CCSID62245.cs" />
+    <Compile Include="ccsidConversion\CCSID62251.cs" />
+    <Compile Include="ccsidConversion\CCSID833.cs" />
+    <Compile Include="ccsidConversion\CCSID836.cs" />
+    <Compile Include="ccsidConversion\CCSID838.cs" />
+    <Compile Include="ccsidConversion\CCSID870.cs" />
+    <Compile Include="ccsidConversion\CCSID871.cs" />
+    <Compile Include="ccsidConversion\CCSID875.cs" />
+    <Compile Include="ccsidConversion\CCSID880.cs" />
+    <Compile Include="ccsidConversion\CCSID9030.cs" />
+    <Compile Include="ccsidConversion\CCSID905.cs" />
+    <Compile Include="ccsidConversion\CCSID918.cs" />
+    <Compile Include="ccsidConversion\CCSID924.cs" />
+    <Compile Include="ccsidConversion\CcsidConversion.cs" />
+    <Compile Include="ccsidConversion\DownloadConversion.cs" />
+    <Compile Include="ccsidConversion\package-info.cs" />
+    <Compile Include="ccsidConversion\SingleByteConversion.cs" />
+    <Compile Include="ccsidConversion\SingleByteConversionTable.cs" />
+    <Compile Include="command\CommandConnection.cs" />
+    <Compile Include="command\CommandResult.cs" />
+    <Compile Include="command\InputOutputParameter.cs" />
+    <Compile Include="command\InputParameter.cs" />
+    <Compile Include="command\IntegerInputParameter.cs" />
+    <Compile Include="command\NullParameter.cs" />
+    <Compile Include="command\OutputParameter.cs" />
+    <Compile Include="command\package-info.cs" />
+    <Compile Include="command\Parameter.cs" />
+    <Compile Include="command\Program.cs" />
+    <Compile Include="command\program\CallServiceProgramParameterFormat.cs" />
+    <Compile Include="command\program\CallServiceProgramProcedure.cs" />
+    <Compile Include="command\program\HashObject.cs" />
+    <Compile Include="command\program\journal\package-info.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalEntries.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalEntriesListener.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalEntriesSelection.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalEntriesSelectionListener.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalReceiverInformation.cs" />
+    <Compile Include="command\program\journal\RetrieveJournalReceiverInformationListener.cs" />
+    <Compile Include="command\program\message\OpenListOfJobLogMessages.cs" />
+    <Compile Include="command\program\message\OpenListOfJobLogMessagesOLJL0100.cs" />
+    <Compile Include="command\program\message\OpenListOfJobLogMessagesOLJL0100Listener.cs" />
+    <Compile Include="command\program\message\OpenListOfJobLogMessagesSelectionListener.cs" />
+    <Compile Include="command\program\message\OpenListOfMessages.cs" />
+    <Compile Include="command\program\message\OpenListOfMessagesLSTM0100.cs" />
+    <Compile Include="command\program\message\OpenListOfMessagesLSTM0100Listener.cs" />
+    <Compile Include="command\program\message\OpenListOfMessagesSelectionListener.cs" />
+    <Compile Include="command\program\message\package-info.cs" />
+    <Compile Include="command\program\object\CreateUserSpace.cs" />
+    <Compile Include="command\program\object\DeleteUserSpace.cs" />
+    <Compile Include="command\program\object\OpenListOfObjects.cs" />
+    <Compile Include="command\program\object\OpenListOfObjectsAuthorityListener.cs" />
+    <Compile Include="command\program\object\OpenListOfObjectsFormat.cs" />
+    <Compile Include="command\program\object\OpenListOfObjectsFormatListener.cs" />
+    <Compile Include="command\program\object\OpenListOfObjectsSelectionListener.cs" />
+    <Compile Include="command\program\object\package-info.cs" />
+    <Compile Include="command\program\object\RetrieveObjectDescription.cs" />
+    <Compile Include="command\program\object\RetrieveUserSpace.cs" />
+    <Compile Include="command\program\openlist\CloseList.cs" />
+    <Compile Include="command\program\openlist\GetListEntries.cs" />
+    <Compile Include="command\program\openlist\ListEntryFormat.cs" />
+    <Compile Include="command\program\openlist\ListFormatListener.cs" />
+    <Compile Include="command\program\openlist\ListInformation.cs" />
+    <Compile Include="command\program\openlist\OpenListHandler.cs" />
+    <Compile Include="command\program\openlist\OpenListProgram.cs" />
+    <Compile Include="command\program\openlist\package-info.cs" />
+    <Compile Include="command\program\openlist\Util.cs" />
+    <Compile Include="command\program\package-info.cs" />
+    <Compile Include="command\program\perf\package-info.cs" />
+    <Compile Include="command\program\perf\WorkWithCollector.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFiles.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFilterListener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFilterOSPF0100Listener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFilterOSPF0200Listener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormat.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatListener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0100.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0100Listener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0200.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0200Listener.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0300.cs" />
+    <Compile Include="command\program\print\OpenListOfSpooledFilesFormatOSPL0300Listener.cs" />
+    <Compile Include="command\program\print\package-info.cs" />
+    <Compile Include="command\program\ProgramAdapter.cs" />
+    <Compile Include="command\program\security\package-info.cs" />
+    <Compile Include="command\program\security\RetrieveAuthorizedUsers.cs" />
+    <Compile Include="command\program\security\RetrieveAuthorizedUsersListener.cs" />
+    <Compile Include="command\program\SortListener.cs" />
+    <Compile Include="command\program\workmgmt\JobKeyDataListener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobs.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormat.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatListener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0100.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0100Listener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0200.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0200Listener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0300.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsFormatOLJB0300Listener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsKeyField.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsSelectionListener.cs" />
+    <Compile Include="command\program\workmgmt\OpenListOfJobsSortListener.cs" />
+    <Compile Include="command\program\workmgmt\package-info.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveCurrentAttributes.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveCurrentAttributesASPGroupListener.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveCurrentAttributesKeyDataListener.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveCurrentAttributesLibraryListener.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveCurrentAttributesListener.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveSystemStatus.cs" />
+    <Compile Include="command\program\workmgmt\RetrieveSystemStatusPoolListener.cs" />
+    <Compile Include="command\program\workmgmt\Util.cs" />
+    <Compile Include="command\StringInputParameter.cs" />
+    <Compile Include="components\ActiveJobsListener.cs" />
+    <Compile Include="components\DiskStatus.cs" />
+    <Compile Include="components\JobInfo.cs" />
+    <Compile Include="components\ListActiveJobs.cs" />
+    <Compile Include="components\ListActiveJobsImpl.cs" />
+    <Compile Include="components\ListJobLogMessages.cs" />
+    <Compile Include="components\ListJobLogMessagesImpl.cs" />
+    <Compile Include="components\ListObjects.cs" />
+    <Compile Include="components\ListObjectsImpl.cs" />
+    <Compile Include="components\ListQSYSOPRMessages.cs" />
+    <Compile Include="components\ListQSYSOPRMessagesImpl.cs" />
+    <Compile Include="components\ListSpooledFiles.cs" />
+    <Compile Include="components\ListSpooledFilesImpl.cs" />
+    <Compile Include="components\ListUsers.cs" />
+    <Compile Include="components\ListUsersImpl.cs" />
+    <Compile Include="components\MessageInfo.cs" />
+    <Compile Include="components\MessageInfoListener.cs" />
+    <Compile Include="components\ObjectInfo.cs" />
+    <Compile Include="components\SpooledFileInfo.cs" />
+    <Compile Include="components\SpooledFileInfoListener.cs" />
+    <Compile Include="components\UserInfo.cs" />
+    <Compile Include="components\UserInfoListener.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Conv.cs" />
+    <Compile Include="DataStreamException.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="ddm\DDMCallbackEvent.cs" />
+    <Compile Include="ddm\DDMConnection.cs" />
+    <Compile Include="ddm\DDMDataBuffer.cs" />
+    <Compile Include="ddm\DDMField.cs" />
+    <Compile Include="ddm\DDMFile.cs" />
+    <Compile Include="ddm\DDMFileMemberDescription.cs" />
+    <Compile Include="ddm\DDMFileMemberDescriptionReader.cs" />
+    <Compile Include="ddm\DDMReadCallback.cs" />
+    <Compile Include="ddm\DDMReadCallbackAdapter.cs" />
+    <Compile Include="ddm\DDMReaderRunner.cs" />
+    <Compile Include="ddm\DDMRecordFormat.cs" />
+    <Compile Include="ddm\DDMRecordFormatReader.cs" />
+    <Compile Include="ddm\DDMThreadedReader.cs" />
+    <Compile Include="ddm\DDMWriteCallback.cs" />
+    <Compile Include="ddm\package-info.cs" />
+    <Compile Include="EncryptPassword.cs" />
+    <Compile Include="file\FileConnection.cs" />
+    <Compile Include="file\FileConstants.cs" />
+    <Compile Include="file\FileHandle.cs" />
+    <Compile Include="file\package-info.cs" />
+    <Compile Include="HostServerConnection.cs" />
+    <Compile Include="HostServerConnectionPool.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageException.cs" />
+    <Compile Include="package-info.cs" />
+    <Compile Include="PortMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignonConnection.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="SystemInfo.cs" />
+    <Compile Include="Trace.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ccsidConversion" />
+    <Folder Include="command" />
+    <Folder Include="command\program" />
+    <Folder Include="command\program\journal" />
+    <Folder Include="command\program\message" />
+    <Folder Include="command\program\object" />
+    <Folder Include="command\program\openlist" />
+    <Folder Include="command\program\perf" />
+    <Folder Include="command\program\print" />
+    <Folder Include="command\program\security" />
+    <Folder Include="command\program\workmgmt" />
+    <Folder Include="components" />
+    <Folder Include="ddm" />
+    <Folder Include="file" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

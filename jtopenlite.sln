@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jtopenlite", "jtopenlite\jtopenlite.csproj", "{9CE50832-5629-487E-B0EE-4CE4D4900F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE50832-5629-487E-B0EE-4CE4D4900F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE50832-5629-487E-B0EE-4CE4D4900F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE50832-5629-487E-B0EE-4CE4D4900F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE50832-5629-487E-B0EE-4CE4D4900F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
